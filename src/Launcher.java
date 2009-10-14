@@ -2,6 +2,13 @@ import processing.core.PApplet;
 
 public class Launcher extends PApplet implements TuioObserver{
 
+	StateInterface MenuLauncher;
+
+	StateInterface stateInterface;
+	
+	TuioHandler tuioHandler;
+
+	
 	/**
 	 * @param args
 	 */
@@ -12,16 +19,22 @@ public class Launcher extends PApplet implements TuioObserver{
 
 	public void setup() {
 		size(screen.width,screen.height);
+
+		tuioHandler = new TuioHandler(this);
+		tuioHandler.registerObserver(this);
+
+		MenuLauncher = new LauncherMenu(this);
+		stateInterface = MenuLauncher;
 	}
 
 	public void draw() {
-		background(100);		
+		background(100);
+		stateInterface.display();
 
 	}
 
 	public void tuioCursorAdded(long sessionID, int cursorX, int cursorY) {
-		// TODO Auto-generated method stub
-		
+		stateInterface.touchEventAddCursor(sessionID, cursorX, cursorY);			
 	}
 
 	public void tuioCursorRemove(long sessionID) {
