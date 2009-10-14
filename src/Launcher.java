@@ -2,6 +2,11 @@ import processing.core.PApplet;
 
 public class Launcher extends PApplet implements TuioObserver{
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	StateInterface MenuLauncher;
 
 	StateInterface stateInterface;
