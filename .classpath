@@ -2,9 +2,9 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
-	<classpathentry kind="lib" path="/Users/ajaykapur/Data/progress/Music_Projects/eclipse/BricKTable/core.jar"/>
-	<classpathentry kind="lib" path="/Users/ajaykapur/Data/progress/Music_Projects/eclipse/BricKTable/oscP5/library/oscP5.jar"/>
-	<classpathentry kind="lib" path="/Users/ajaykapur/Data/progress/Music_Projects/eclipse/BricKTable/TUIO/libTUIO.jar"/>
-	<classpathentry kind="lib" path="/Users/ajaykapur/Data/progress/Music_Projects/eclipse/BricKTable/TUIO/TUIO.jar"/>
+	<classpathentry kind="lib" path="lib/core.jar"/>
+	<classpathentry kind="lib" path="lib/oscP5/library/oscP5.jar"/>
+	<classpathentry kind="lib" path="lib/TUIO/libTUIO.jar"/>
+	<classpathentry kind="lib" path="lib/TUIO/TUIO.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
