@@ -33,7 +33,7 @@ public class Launcher extends PApplet implements TuioObserver{
 	}
 
 	public void draw() {
-		background(100);
+		background(0);
 		stateInterface.display();
 
 	}

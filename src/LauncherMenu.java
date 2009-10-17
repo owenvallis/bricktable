@@ -11,14 +11,14 @@ public class LauncherMenu implements StateInterface {
 	{
 		this.L = L;
 		
-		String ah = "data/launcer/ahtext.jpg";
-		AhText = new Buttons(0,0,400,800,ah,ah,ah,L);
+		String ah = "data/launcher/ahtext.jpg";
+		AhText = new Buttons(15,0,400,800,ah,ah,ah,L);
 		
-		String root = "data/launcer/roots.jpg";
-		Roots = new Buttons(420,0,400,800,root,root,root,L);
+		String root = "data/launcher/roots.jpg";
+		Roots = new Buttons(440,0,400,800,root,root,root,L);
 		
-		String som = "data/launcer/som.jpg";
-		SOM = new Buttons(840,0,400,800,som,som,som,L);
+		String som = "data/launcher/som.jpg";
+		SOM = new Buttons(865,0,400,800,som,som,som,L);
 		
 		
 	}
